@@ -1,2 +1,2 @@
-#!/vin/bash
+#!/bin/bash
 chown vincent:staff _hello
