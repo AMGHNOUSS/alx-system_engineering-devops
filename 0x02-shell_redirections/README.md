@@ -42,3 +42,6 @@
 #
 ##### Script task 13. :
 	Take a list of words as input and prints only words that appear exactly once.
+#
+##### Script task 14. :
+	Display lines containing the pattern “root” from the file /etc/passwd.
