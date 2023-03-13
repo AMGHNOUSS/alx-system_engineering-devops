@@ -21,3 +21,6 @@
 #
 ##### Script task 6. :
 	Display the third line of the file 'iacta'.
+#
+##### Script task 7. :
+	Create a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
