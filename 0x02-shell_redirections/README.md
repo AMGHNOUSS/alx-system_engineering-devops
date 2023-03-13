@@ -69,3 +69,15 @@
 #
 ##### Script task 22. :
 	 Display all users and their home directories, sorted by users.
+#
+##### Script task 23. ;
+	Find all empty files and directories in the current directory and all sub-directories.
+#
+##### Script task 24. :
+	List all the files with a .gif extension in the current directory and all its sub-directories.
+#
+##### Script task 25. :
+	Decode acrostics that use the first letter of each line.
+#
+##### Script task 26. :
+	Parse web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
