@@ -66,3 +66,6 @@
 #
 ##### Script task 21. :
 	 reverse its input.
+#
+##### Script task 22. :
+	 Display all users and their home directories, sorted by users.
