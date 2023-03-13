@@ -39,3 +39,6 @@
 #
 ##### Script task 12. :
 	Display the 10 newest files in the current directory.
+#
+##### Script task 13. :
+	Take a list of words as input and prints only words that appear exactly once.
