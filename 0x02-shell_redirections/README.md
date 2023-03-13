@@ -63,3 +63,6 @@
 #
 ##### Script task 20. :
 	Create a script that removes all letters c and C from input.
+#
+##### Script task 21. :
+	 reverse its input.
