@@ -36,3 +36,6 @@
 #
 ##### Script task 11. :
 	Counts the number of directories and sub-directories in the current directory.
+#
+##### Script task 12. :
+	Display the 10 newest files in the current directory.
