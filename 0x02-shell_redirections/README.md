@@ -57,3 +57,6 @@
 #
 ##### Script task 18. :
 	Display all lines of the file '/etc/ssh/sshd_config' starting with a letter.
+#
+##### Script task 19. :
+
