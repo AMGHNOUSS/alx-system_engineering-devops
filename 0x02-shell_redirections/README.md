@@ -60,3 +60,6 @@
 #
 ##### Script task 19. :
 	Replace all characters A and c from input to Z and e respectively.
+#
+##### Script task 20. :
+	Create a script that removes all letters c and C from input.
