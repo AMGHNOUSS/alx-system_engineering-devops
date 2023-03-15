@@ -43,3 +43,17 @@
 ##### Script task 13. :
         Print a number with two decimal places, followed by a new line.
 #
+##### Script task 14. :
+        Converts a number from base 10 to base 16.
+#
+##### Script task 15. :
+        Encode and decodes text using the rot13 encryption. Assume ASCII.
+#
+##### Script task 16. :
+        Print every other line from the input, starting with the first line.
+#
+##### Script task 17. :
+        Add the two numbers stored in the environment variables WATER and STIR and prints the result.
+#
+#
+####Finish
