@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # This script prints "Best school" 10 times
 h=0
-m=0
+m=1
 while [ $h -le 12 ]
 do
-	m=0
+	m=1
 	echo "Hour: $h"
 	while [ $m -le 59 ]
 	do
