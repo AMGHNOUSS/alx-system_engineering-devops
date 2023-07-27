@@ -11,7 +11,7 @@ do
 	then
 		echo "good luck"
 	else
-		echo "Best shcool"
+		echo "Best School"
 	fi
 	n=$(( n + 1 ))
 done
