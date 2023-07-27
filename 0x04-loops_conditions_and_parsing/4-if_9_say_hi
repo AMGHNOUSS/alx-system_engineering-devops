@@ -4,11 +4,10 @@ n=1
 
 while [ $n -le 10 ]
 do
+	echo "Best School"
 	if [ $n -eq 9 ]
 	then
 		echo "Hi"
-	else
-		echo "Best School"
 	fi
 	n=$(( n + 1 ))
 done
