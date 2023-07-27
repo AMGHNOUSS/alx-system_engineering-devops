@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 # This script prints "Best school" 8 times and "bad luck", "good luck" once time for both
-n=1
-
-while [ $n -le 100 ]
+for n in {1..100}
 do
-	if [ $((n % 3)) -eq 0 -a $((n % 5)) -eq 0 ]
+	if [ $((n % 3)) -eq 0 ] && [ $((n % 5)) -eq 0 ]
 	then
 		echo "FizzBuzz"
 	elif [ $((n % 3)) -eq 0 ]
