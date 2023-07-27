@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# This script prints "Best school" 10 times
+n=1
+
+while [ $n -le 20 ]
+do
+	case $n in
+		4)
+			echo $n
+			echo "bad luck from China"
+			;;
+		9)
+			echo $n
+			echo "bad luck from Japan"
+			;;
+		17)
+			echo $n
+			echo "bad luck from Italy"
+			;;
+		*)
+			echo $n
+			;;
+		esac
+	n=$(( n + 1 ))
+done
