@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script opens 4 terminal windows.
+
+i="0"
+
+while [ $i -lt 10 ]
+do
+	echo "Best school"
+	i=$[$i+1]
+done
