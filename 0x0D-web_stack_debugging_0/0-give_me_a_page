@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Turn on Apache on the holbertonschool/265-0 Docker container.
+service Apache start
