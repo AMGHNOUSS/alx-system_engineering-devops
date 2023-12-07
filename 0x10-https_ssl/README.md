@@ -9,7 +9,6 @@ Project done during **Full Stack Software Engineering studies*ALX School**. It a
 
 | Filename | Description |
 | -------- | ----------- |
-| `0-https_abc` |  |
-| `1-world_wide_web` |  |
-| `2-haproxy_ssl_termination` |  |
+| `0-world_wide_web` | Display information about subdomains |
+| `1-haproxy_ssl_termination` |  |
 | `100-redirect_http_to_https` |  |
