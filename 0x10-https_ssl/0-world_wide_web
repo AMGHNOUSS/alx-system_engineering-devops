@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
 # Display information about subdomains.
 
-
+if [ -n "$2" ]
+then
+	dig "$2.$1" | grep -A1 'ANSWER SECTION:' | paste - - | awk -v sd="$2" '{print "The subdomain " sd " is a " $7 " record and points to " $8}'
+else
+	dig "www.$1" | grep -A1 'ANSWER SECTION:' | paste - - | awk -v sd="$2" '{print "The subdomain " sd " is a " $7 " record and points to " $8}'
+fi
