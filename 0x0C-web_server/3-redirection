@@ -6,6 +6,7 @@ apt-get update
 apt-get install -y nginx
 
 mkdir /etc/nginx/html
+mkdir /etc/nginx/html/redirect_me/index.html
 touch /etc/nginx/html/index.html
 echo "Hello Word!" > /etc/nginx/html/index.html
 printf %s "server {
