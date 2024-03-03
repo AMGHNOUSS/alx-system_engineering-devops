@@ -2,6 +2,6 @@
 #Install nginx on your web-01 server
 apt-get update
 apt-get install -y nginx
-sed -i 's/listen 80 default_server;/listen 80;/' /etc/nginx/sites-available/default
+ufw allow 'Nginx HTTP'
 echo "Hello World!" > /var/www/html/index.html
 service nginx restart
