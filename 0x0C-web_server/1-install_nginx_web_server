@@ -3,6 +3,7 @@
 
 sudo apt-get update
 sudo apt-get install -y nginx
+sed -i 's/80/8080/g' /etc/nginx/sites-enabled/default
 sudo ufw 'Ngnix HTTP'
 echo "Hello World!" | sudo tee /var/www/html/index.html
 sudo ngnix -t
