@@ -1,5 +1,5 @@
 # HTTPS SSL
-Project done during **Full Stack Software Engineering studies** at **ALX School**. It aims to learn about how to configure HTTPS.
+Project done during **Full Stack Software Engineering studies** at **ALX School**. It aims to learn about how to configure HTTPS and Haproxy.
 
 ## Technologies
 * Scripts written in Bash 5.1.16
