@@ -1,6 +1,6 @@
-# Fix problem of Apache returning 500 errors.
+# Fixes Apache 500 error
 
-exec { 'replace':
-	provider => shell,
-	command => 'sed -i "s/phpp/php/g" /var/www/html/wp-settings.php'
+exec { 'fix-wordpress':
+  command => 'sed -i s/phpp/php/g /var/www/html/wp-settings.php',
+  path    => '/usr/local/bin/:/bin/'
 }
