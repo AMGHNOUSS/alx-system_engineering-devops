@@ -1,6 +1,11 @@
-# Fixes Apache 500 error
+# Fix the amouunt traffic a ngnix
 
-exec { 'fix-wordpress':
-  command => 'sed -i s/phpp/php/g /var/www/html/wp-settings.php',
-  path    => '/usr/local/bin/:/bin/'
+exec { 'fix':
+	command => 'sed -i "s/15/4096/" /etc/default/nginx',
+	path => '/usr/local/bin/:/bin'
+}
+
+exec { 'restart':
+	command => 'nginx restart',
+	path => '/etc/init.d/'
 }
