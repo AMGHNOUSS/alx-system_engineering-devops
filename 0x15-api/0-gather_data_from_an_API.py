@@ -1,17 +1,25 @@
 #!/usr/bin/python3
-# Gather information about Employee by passing a integer.
+"""
+Gather information about Employee by passing a integer.
 
+"""
 import requests
 import sys
 
 if __name__ == "__main__":
+    # URL
     url = "https://jsonplaceholder.typicode.com/"
+
+    # ID Employee
     emp_id = sys.argv[1]
+
+    # Get a list for the employee.
     response = requests.get(url + "users/" + emp_id)
     data = response.json()
     params = {"userId": emp_id}
     response_todos = requests.get(url + "todos", params)
     data_todos = response_todos.json()
+
     a = 0
     for item in data_todos:
         if item['completed'] is True:
