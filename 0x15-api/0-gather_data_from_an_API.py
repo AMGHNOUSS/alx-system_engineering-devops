@@ -7,13 +7,11 @@ import sys
 if __name__ == "__main__":
     url = "https://jsonplaceholder.typicode.com/"
     emp_id = sys.argv[1]
-
     response = requests.get(url + "users/" + emp_id)
     data = response.json()
     params = {"userId": emp_id}
     response_todos = requests.get(url + "todos", params)
     data_todos = response_todos.json()
-
     a = 0
     for item in data_todos:
         if item['completed'] is True:
