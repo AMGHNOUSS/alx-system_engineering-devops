@@ -24,5 +24,5 @@ if __name__ == "__main__":
     with open(filename, mode='w', newline="") as file:
         for item in data_todos:
             writer = csv.writer(file, quoting=csv.QUOTE_ALL)
-            writer.writerow([emp_id, data['name'], item['completed'],
+            writer.writerow([emp_id, data['username'], item['completed'],
                              item['title']])
