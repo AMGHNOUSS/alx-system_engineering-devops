@@ -16,7 +16,7 @@ if __name__ == "__main__":
     users = response.json()
 
     # Dictionary
-    
+
     data_to_export = {}
     for user in users:
         user_id = user["id"]
@@ -34,4 +34,4 @@ if __name__ == "__main__":
     # Handle with file csv.
     filename = "todo_all_employees.json"
     with open(filename, mode='w', newline="") as file:
-        json.dump(data_to_export , file, indent=4)
+        json.dump(data_to_export, file, indent=4)
