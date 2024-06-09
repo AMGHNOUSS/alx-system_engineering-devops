@@ -11,4 +11,5 @@ Project done during **Full Stack Software Engineering studies** at **ALX School*
 | -------- | ----------- |
 | `README.md` | 0. My first postmortem |
 | `README.md` | 1. Make people want to read your postmortem |
+| `https://medium.com/@redouane.amghnouss/postmortem-database-nginx-outage-35d438ade3fc` | This My link of postmortem. |
 
